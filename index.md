@@ -1,3 +1,8 @@
+---
+layout: default
+title: The Fundamental Theorem of Calculus
+---
+
 ## asds
 
 You can use the [editor on GitHub](https://github.com/UnknownMalware/axiafp/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
