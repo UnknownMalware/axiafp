@@ -3,7 +3,7 @@ layout: default
 title: The Fundamental Theorem of Calculus
 ---
 
-<iframe src="https://www.desmos.com/calculator/4jqtqt505z?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+![thing]("https://www.desmos.com/calculator/4jqtqt505z?embed")
 
 ## asds
 
