@@ -16,6 +16,11 @@ layout: default
         margin-right: auto;
         width: 50%;
       }
+      .equation {
+        @extend .center;
+        height: 200px;
+        width: 400px;
+      }
     </style>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -30,7 +35,7 @@ layout: default
       There are actually two Fundamental Theorems of Calculus, both of which establish a relationship between functions, their derivatives, and their antiderivatives. 
       The Fundamental Theorem of Calculus tells us states the relationship between the rate of change of the area under a function, (the integral), and the function itself.    
     </p>
-    <p class="center">
+    <p class="equation">
       \(\frac{d}{dx}\int _a^x f(t)dt = f(x)\)
     </p>
     <p>
