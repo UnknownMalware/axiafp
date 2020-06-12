@@ -20,6 +20,9 @@ layout: default
         @extend .center;
         text-align: center;
       }
+      hr {
+        color: black;
+      }
     </style>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -95,10 +98,10 @@ layout: default
       The First Fundamental Theorem of Calculus states that \(\frac{d}{dx}\int _a^x f(t)dt = f(x)\), and it follows from there that \(F(x) = \int_a^x f(t)dt\) <br>
       From there, \(F(b) = \int_c^b f(t)dt\) and \(F(a) = \int_c^a f(t)dt\), where c is some constant.
     </p> <br>
-    <p class="center">
-      \(F(b) = \int_c^b f(t)dt\) <br>
-      \(-\)  \(F(a) = \int_c^a f(t)dt\) <br>
-      <hr style="width:50%">
+    <p class="equation">
+      &nbsp;&nbsp;&nbsp;\(F(b) = \int_c^b f(t)dt\) <br>
+      \(F(a) = \int_c^a f(t)dt\)
+      <hr>
     </p>
   </body>
 </html>
